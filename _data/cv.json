@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Ieman Ihsan Bin Alwi",
+    "email": "iemanihsanalwi@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://iemanihsanalwi.github.io",
+    "summary": "Currently employed at HICOM HBPO. Graduate from UTP in 2024",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Hulu Selangor, Selangor",
+      "countryCode": "MY",
       "region": ""
     },
     "profiles": [
@@ -21,42 +21,46 @@
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0009-0003-1817-6952"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "iemanihsanalwi",
+        "url": "https://github.com/iemanihsanalwi"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "title": "Data Analyst",
+      "employmentType": "Freelance",
+      "organization": "",
+      "startDate": "2020",
+      "endDate": "2025"
+    },
+    {
+      "title": "IT Trainee",
+      "employmentType": "Internship",
+      "organization": "AnsarComp",
+      "startDate": "Jul 2023",
+      "endDate": "Dec 2025"
+    },
+    {
+      "title": "Research Intern",
+      "employmentType": "Internship",
+      "organization": "UTP",
+      "startDate": "Mar 2023",
+      "endDate": "Jul 2023"
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Universiti Teknologi PETRONAS",
+      "area": "B.S in Computer Science",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "startDate": "2021",
+      "endDate": "2024",
+      "gpa": 3.69,
       "courses": []
     }
   ],
