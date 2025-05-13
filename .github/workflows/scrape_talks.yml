@@ -26,12 +26,15 @@ jobs:
     - name: Run Jupyter Notebook
       run: |
         jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
-
-    - name: Commit and Push Changes
+    
+    - name: Set up repository
       run: |
-        git config --global user.name "GitHub Actions Bot"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/iemanihsanalwi/iemanihsanalwi.github.io.git
-        git add .
-        git commit -m "Automated update of talk locations" || echo "No changes to commit"
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+    
+    - name: Push changes
+      env:
+        TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      run: |
+        git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
         git push origin HEAD:master
