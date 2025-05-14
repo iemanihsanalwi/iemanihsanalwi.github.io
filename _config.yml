@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Ieman Ihsan Bin Alwi / Personal portfolio"
+title                    : "Personal portfolio"
 title_separator          : "-"
 name                     : &name "Ieman Ihsan Bin Alwi"
 description              : &description "CS Graduate"
@@ -22,7 +22,7 @@ repository               : "iemanihsanalwi/iemanihsanalwi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ieman.png"
+  avatar           : "iemanihsanalwi/iemanihsanalwi.github.io/images/ieman.jpg"
   name             : "Ieman Ihsan Bin Alwi"
   pronouns         : "he/him"  
   bio              : "I am a computer science graduate"
@@ -36,7 +36,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0003-1817-6952"
   semantic         : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "iemanihsanalwi"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -132,7 +132,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &iemanihsan
 facebook:
   username               :
   app_id                 :
